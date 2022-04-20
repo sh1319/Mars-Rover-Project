@@ -1,0 +1,24 @@
+/* module HSV_TEST(
+    input                         clk,
+	input                       	rst,	
+	input	     [7:0]            rgb_r_in,
+	input	     [7:0]            rgb_g_in,
+	input	     [7:0]            rgb_b_in,	
+	output reg [8:0] 			  hsv_h_out,//  0 - 360
+	output reg [7:0] 			  hsv_s_out,// 0- 255
+	output reg [7:0] 			  hsv_v_out // 0- 255
+);
+
+EEE_HSV hsv(
+    .clk(clk),
+    .rst(rst),
+    .rgb_r_in(rgb_r),
+    .rgb_b_in(rgb_b),
+    .rgb_g_in(rgb_g),
+    .hsv_h_out(hsv_h),
+    .hsv_s_out(hsv_s),
+    .hsv_v_out(hsv_v)
+);
+
+endmodule
+*/
